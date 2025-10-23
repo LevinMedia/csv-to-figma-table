@@ -1,0 +1,9 @@
+{
+  "name": "CSV Table Populator",
+  "id": "csv-table-populator",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"]
+}
+
