@@ -4,6 +4,8 @@
   "api": "1.0.0",
   "main": "code.js",
   "ui": "ui.html",
-  "editorType": ["figma"]
+  "editorType": ["figma"],
+  "license": "GPL-2.0-or-later",
+  "repository": "https://github.com/LevinMedia/csv-to-figma-table"
 }
 

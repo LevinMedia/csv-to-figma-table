@@ -91,15 +91,18 @@
   <h2>📊 CSV Table Populator</h2>
   
   <div class="instructions">
-    <strong>Setup:</strong>
+    <strong>Quick Setup:</strong>
     <ol>
-      <li>Create a horizontal auto-layout frame</li>
-      <li>Name it after your CSV (e.g., "commission_anomaly_detection_sample")</li>
-      <li>Inside, add vertical auto-layout frames for each column</li>
-      <li>Name each frame after the CSV column (e.g., "deal_size")</li>
-      <li>In each column frame, add: Header + one Cell</li>
-      <li>Select the main frame and run this plugin</li>
+      <li>Create a horizontal auto-layout frame (main table)</li>
+      <li>Inside, add ONE vertical auto-layout frame (column template)</li>
+      <li>In that column, add: Header + Cell (both with text)</li>
+      <li>Style them however you want - your design is preserved!</li>
+      <li>Select the main frame, upload CSV, and click populate</li>
     </ol>
+    <div style="margin-top: 8px; font-size: 10px; color: #999;">
+      💡 Plugin auto-creates all columns from your template!<br>
+      Try <strong>pizza_menu.csv</strong> included in the repo.
+    </div>
   </div>
 
   <div class="file-input-wrapper">
@@ -109,6 +112,12 @@
   <button id="populateBtn" disabled>Upload CSV First</button>
 
   <div id="status" class="status"></div>
+
+  <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #eee; text-align: center; font-size: 10px; color: #999;">
+    <a href="https://github.com/LevinMedia/csv-to-figma-table" target="_blank" style="color: #18a0fb; text-decoration: none;">
+      https://github.com/LevinMedia/csv-to-figma-table
+    </a>
+  </div>
 
   <script>
     const csvFileInput = document.getElementById('csvFile');
