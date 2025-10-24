@@ -1,4 +1,4 @@
-# CSV Table Populator - Figma Plugin
+# CSV to AutoLayout Table - Figma Plugin
 
 Automatically populate Figma tables with CSV data while maintaining your custom cell and header designs!
 
@@ -39,7 +39,7 @@ The plugin will automatically:
 ## 🚀 Usage
 
 1. **Select** the main table frame (the horizontal auto-layout container)
-2. **Run** the plugin: `Plugins → Development → CSV Table Populator`
+2. **Run** the plugin: `Plugins → Development → CSV to AutoLayout Table`
 3. **Upload** your CSV file
 4. **Click** "Populate Table"
 5. **Done!** Your table is populated with data
@@ -106,7 +106,7 @@ The plugin will automatically create 4 columns (Pies, Toppings, Price, Rating) f
 1. Open Figma Desktop App
 2. Go to `Plugins → Development → Import plugin from manifest...`
 3. Select the `manifest.json` file from this folder
-4. The plugin is now available in `Plugins → Development → CSV Table Populator`
+4. The plugin is now available in `Plugins → Development → CSV to AutoLayout Table`
 
 ### Option 2: Modify the Code
 
